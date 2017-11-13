@@ -5,10 +5,10 @@ FAKERADS = {'鼓', '香', '鼻'}
 import numpy as np
 import sys
 
-joyo_list_location = 'data/joyo_kanji.txt'
-kradfile_location = 'data/kradfile-u.gz'
-radkfile_location = 'data/radkfile-u-jis208.txt'
-jis_to_kj = "data/jis208_to_kj.txt"
+joyo_list_location = '../data/joyo_kanji.txt'
+kradfile_location = '../data/kradfile-u.gz'
+radkfile_location = '../data/radkfile-u-jis208.txt'
+jis_to_kj = "../data/jis208_to_kj.txt"
 
 
 # Load files
