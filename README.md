@@ -1,7 +1,6 @@
 # Research Project: Exploiting Structure For Classification Of Handwritten Japanese Characters
+This is a repository for the CSC412 project completed during the Winter 2017 session. Please see the report for details.
 
-This was a research project for CSC412 (Probabilistic Learning and Reasoning) course at University of Toronto, taken Winter 2017. 
-
-Due to licensing, the dataset is not published. It can be acquired at http://etlcdb.db.aist.go.jp/. The path to the dataset needs to be inserted in /code/load_data.py and /code/load_data_rad.py
-
-The models are all contained in different files because they were all ran on different AWS EC2 machines simultaneously and this was the easiest solution, even though they shared a lot of code. Similarly with load_data and load_data_rad, they have matching code, but were tweaked separately and ended up never put together into a single file.
+## Acknowledgements:
+- JIS 0208 to unicode conversion table acquired from http://ash.jp/code/unitbl21.htm
+- [KRADFILE, RADKFILE](http://www.csse.monash.edu.au/~jwb/kradinf.html) are the property of the [Electronic Dictionary Research and Development Group](http://www.edrdg.org/), and are used in conformance with the Group's licence.

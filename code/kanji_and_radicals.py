@@ -35,11 +35,8 @@ with open(jis_to_kj, encoding="utf-8") as j2kj:
     kj_to_jis = {}
     for line in j2kj.readlines():
         line = line.split(" ")
-        try:
-            int(line[0])
-        except:
+        if line[0] == "区" or int(line[0]) < 16:
             continue
-        if int(line[0]) < 16: continue
         jis = line[0] + '-' + line[1]
         kj = line[-1][0]
         if kj not in joyo_kanji: continue
