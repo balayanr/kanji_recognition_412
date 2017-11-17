@@ -3,5 +3,5 @@ This is a repository for the CSC412 project completed during the Winter 2017 ses
 
 ### Acknowledgements:
 - The image dataset (ETL9G) was obtained from Electrotechnical Laboratory (ETL) Character Database, collected by National Institute of Advanced Industrial Science and Technology (AIST) and available [here](http://etlcdb.db.aist.go.jp/). The data is not included with the project.
-- [KRADFILE, RADKFILE](http://www.csse.monash.edu.au/~jwb/kradinf.html) are the property of the [Electronic Dictionary Research and Development Group](http://www.edrdg.org/), and are used in conformance with the Group's licence.
+- [kradfile-u, radkfile-u](http://kanjicafe.com/kradfile_license.htm) were originally created by [Electronic Dictionary Research and Development Group](http://www.edrdg.org/) and were further expanded by [Jim Rose](http://kanjicafe.com/). Please see the header in the kradfile-u itself or any of the links provided ahead for further details.
 - JIS 0208 to unicode conversion table acquired from http://ash.jp/code/unitbl21.htm
